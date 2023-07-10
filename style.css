@@ -1,13 +1,14 @@
 body{
-    background-color: rgb(197, 197, 197);
+    background-color: rgb(212, 212, 212);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
 #logo {
     width: max(100px, 18vw);
     background-color: #0a0a23;
     aspect-ratio: 35 / 6;
-    padding: 0.4rem;
+    /* padding: 0.4rem; */
     display: flex;
-    margin: 20px;
+    /* margin: 20px; */
 }
 nav{
     display: flex;
@@ -41,27 +42,60 @@ header {
 }
 .visit{
     display: flex;
-    float: inline-end;
+    /* float: inline-end; */
+    padding-left: 15%;
+    padding-right: 15%;
 }
 .coffee{
-    width: 100%;
+    width: -webkit-fill-available;
+    height: 770px;
 }
 .Aboutus{
     margin: 5%;
 }
 h2{
-    text-align: center;
+    text-align: left;
+    margin-left: 48px;
+    color: rgb(36, 36, 36);
+
 }
 p{
     text-align: center;
+    padding-top: 10px;
+    margin: 2px;
+    padding-bottom: 4px;
+}
+.caption{
+    text-align: left;
     margin: 50px;
+    color: rgb(102, 97, 97);
+    margin-top: 0px;
 }
 .foot{
-    background-color: black;
-    color: white;
-    /* justify-content: center; */
+    background-color: rgb(56, 55, 55);
+    color: rgb(178, 177, 177);
+    justify-content: center;
+    /* padding-top: 0.1rem; */
 }
-h3{
+.icon{
+    width: 15px;
+    height: 15px;
+}
+/* .list{
+    align-items: center;
+} */
+button{
+    border: 2px solid black;
+    background-color:  rgb(197, 197, 197);
+    margin-left: 48px;
+}
+.fb{
+    height: 15px;
+    /* margin-left: 1px; */
+    margin: auto;
+}
+.social{
     text-align: center;
-    padding-top: 4px;
+    padding-bottom: 10px;
+    padding-top: 2px;
 }
