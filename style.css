@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(197, 197, 197);
+}
+#logo {
+    width: max(100px, 18vw);
+    background-color: #0a0a23;
+    aspect-ratio: 35 / 6;
+    padding: 0.4rem;
+    display: flex;
+    margin: 20px;
+}
+nav{
+    display: flex;
+    margin-left: auto;
+}
+header {
+    display: flex;
+    
+    align-items: center;
+  }
+  
+  .header-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 20px;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 10px;
+  }
+.pic{
+    height: 250px;
+    margin-top: 10px;
+    /* margin-left: 50px; */
+}
+.visit{
+    display: flex;
+    float: inline-end;
+}
+.coffee{
+    width: 100%;
+}
+.Aboutus{
+    margin: 5%;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+    margin: 50px;
+}
+.foot{
+    background-color: black;
+    color: white;
+    /* justify-content: center; */
+}
+h3{
+    text-align: center;
+    padding-top: 4px;
+}
